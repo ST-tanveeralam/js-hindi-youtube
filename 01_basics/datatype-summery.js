@@ -30,3 +30,26 @@ const myFunction = function(){
     console.log("hello world");
 }
 console.log(typeof myFunction)
+
+
+
+//=============================================================================
+
+//stack ( primitive), heap( non- primitive)
+
+let city1 = "Delhi";
+let updateCity = city1;
+ updateCity="Bangalor";
+
+ console.log(city1);
+ console.log(updateCity);
+
+
+let profile = {
+    name: "tanu",
+    email:"tanu@gmail.com",
+    city:"Delhi"
+}
+profile.email="taniya@gmail.com"
+console.log(profile);
+
